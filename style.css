@@ -1,0 +1,40 @@
+
+
+h2
+{
+font-size: medium;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+font-style: italic;
+color:white;
+
+}
+#para1 
+{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: small;
+font-style:bold;
+color:white;
+}
+
+#ptxt
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-style:bold;
+    text-align:center;
+    color:white;
+    
+}
+body {
+    background-image:url(arriereplantintin.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+jaune {
+    color: yellow; 
+}
+jaune-bold {
+    color: yellow;
+    font-style:bold;
+}
