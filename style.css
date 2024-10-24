@@ -1,40 +1,77 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
 
-
-h2
-{
-font-size: medium;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
-font-style: italic;
-color:white;
-
+  .vertical-menu {
+    width: 150px; 
+    height: 10px;
+  }
+  
+  .vertical-menu a {
+    background-color: #FCE20B; 
+    color: black; 
+    display: block; 
+    font-family: Gill Sans;
+    padding: 12px; 
+    text-decoration: none; 
 }
-#para1 
-{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: small;
-font-style:bold;
-color:white;
-}
-
-#ptxt
-{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 10px;
-    font-style:bold;
-    text-align:center;
-    color:white;
-    
-}
-body {
-    background-image:url(arriereplantintin.png);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-jaune {
-    color: yellow; 
-}
-jaune-bold {
-    color: yellow;
-    font-style:bold;
-}
+  
+  .vertical-menu a:hover {
+    background-color: #FDED5D; 
+  }
+  
+  .vertical-menu a.active {
+    background-color: #DA001A; 
+    color: white;
+  }
+  .para1 {
+    display: block;
+    text-align: center;
+    font-family: copperplate ;
+    width: 70%;
+    margin-left: 20%;
+    margin-right:50%;
+    margin-top:2% ;
+  }
+  .center1 {
+    display: block;
+    text-align: center;
+  
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+   
+  }
+  .txt {
+    display: block;
+    text-align: center;
+    font-family: copperplate ;
+    width: 70%;
+    margin-left: 15%;
+    margin-right:80%;
+    margin-top:2% ;
+    color: #DA001A;
+  }
+  
+  .center2 {
+    display: block;
+    text-align: center;
+  
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+   
+  }
+  .para2 {
+    display: block;
+    text-align: left;
+    font-family: copperplate ;
+    width: 70%;
+    margin-left: 20%;
+    margin-right:50%;
+    margin-top:2% ;
+  }
+  
