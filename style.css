@@ -1,0 +1,134 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .vertical-menu {
+    width: 150px; 
+    height: 10px;
+  }
+  
+  .vertical-menu a {
+    background-color: #FCE20B; 
+    color: black; 
+    display: block; 
+    font-family: Gill Sans;
+    padding: 12px; 
+    text-decoration: none; 
+}
+  
+  .vertical-menu a:hover {
+    background-color: #FDED5D; 
+  }
+  
+  .vertical-menu a.active {
+    background-color: #DA001A; 
+    color: white;
+  }
+  .para1 {
+    display: block;
+    text-align: center;
+    font-family: copperplate ;
+    width: 70%;
+    margin-left: 20%;
+    margin-right:50%;
+    margin-top:2% ;
+  }
+  .center1 {
+    display: block;
+    text-align: center;
+  
+    width: 40%;
+    margin-left: auto;
+    margin-right:auto;
+   
+  }
+  .txt {
+    display: block;
+    text-align: center;
+    font-family: copperplate ;
+    width: 70%;
+    margin-left: 15%;
+    margin-right:80%;
+    margin-top:2% ;
+    color: #DA001A;
+  }
+  
+ 
+  .para2 {
+    display: block;
+    text-align: left;
+    font-family: copperplate ;
+    width: 70%;
+    margin-left: 20%;
+    margin-right:50%;
+    margin-top:2% ;
+  }
+  .center2 {
+    display: block;
+    text-align: center;
+  
+    width: 30%;
+    margin-left: auto;
+    margin-right:auto;
+   
+  }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+  line-height: 1.6;
+}
+
+header {
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.slideshow-container {
+  overflow-x: auto; 
+  overflow-y: hidden;
+  white-space: nowrap; 
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+
+  margin-left: 50px; 
+
+}
+  
+
+.slideshow {
+  display: flex; 
+  
+  gap: 10px;
+}
+
+.slide {
+  display: inline-block; 
+  height: 500px; 
+  width: auto;
+}
+
+.slide img {
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 5px;
+  display: block;
+}
