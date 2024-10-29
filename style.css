@@ -219,3 +219,6 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #a80014; 
 }
+.audio-container{
+  text-align: center;
+}  
